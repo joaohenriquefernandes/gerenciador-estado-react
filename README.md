@@ -1,27 +1,27 @@
-# React + TypeScript + Vite
+# [<img align="center" alt="EditorConfig" height="70" width="70" src="https://media.licdn.com/dms/image/C4D0BAQGFQvybhsvr8g/company-logo_200_200/0/1630488766521?e=2147483647&v=beta&t=afLUwc-Gex7eHWMQdxT-qSn10bdMITGz4JiyXnbB8UM">](https://2024.jstack.com.br/) Construindo um Gerenciador de Estados do zero com React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live #002 of the JStack Course
 
-Currently, two official plugins are available:
+Immerse yourself in the hands-on construction of a State Manager with React. Uncover the essential foundations for efficient management, gaining a solid understanding of how to control state in your React applications. By the end, you will have created your own functional solution, acquiring valuable skills in front-end development with React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 💻 | Technology
 
-## Expanding the ESLint configuration
+<div style="display: inline_block">
+  <img align="center" alt="Node.js" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg">
+  <img align="center" alt="TypeScript" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg">
+  <img align="center" alt="Yarn" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/yarn/yarn-original.svg">
+</div>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 👨‍💻 | Running Project
 
-- Configure the top-level `parserOptions` property like this:
+Dependency installs
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+```bash
+  yarn
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Starting project
+
+```bash
+  yarn dev
+```
